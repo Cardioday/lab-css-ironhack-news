@@ -199,7 +199,7 @@ header {
   }
 }
 
-@media(min-width: 760px) and (max-width: 1024px) {
+@media(min-width: 760px) {
   .navbar {
     display:flex;
     flex-direction: row;
@@ -215,5 +215,12 @@ header {
   }
   .main-article img {
     width: 100%;
+  }
+}
+
+@media(min-width: 1025px) {
+  .navbar {
+    display: flex;
+    align-self: flex-start;
   }
 }
